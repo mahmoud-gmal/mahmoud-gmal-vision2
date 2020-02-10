@@ -95,6 +95,7 @@ $( "input" ).focusout(function() {
 // Trigger AOS Animations
 AOS.init({
  once: true,
+  disable: 'mobile',
 duration: 1400,
 });
 
